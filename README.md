@@ -4,11 +4,12 @@ The is a collection of scripts from the Aseprite community, originally collected
 
 Aseprite is working on an official database of scripts and extensions (including a store). In the meantime, this is the unofficial home of this collection.
 
-If you have a script that you'd like to contribute, please read [the contributing readme](CONTRIBUTING.md).
+If you have a script that you'd like to contribute, complete the form to [submit a script](https://github.com/projectitis/aseprite-community-script-collection/issues/new?assignees=projectitis&labels=&projects=&template=submit-a-script.md&title=%5BScript%5D+My+script+name).
 
 - [How to install a script](#how-to-install-a-script)
 - [How to create a scrip](#how-to-create-a-script)
 - [Scripts collection](#scripts-collection)
+- [Submit a script](https://github.com/projectitis/aseprite-community-script-collection/issues/new?assignees=projectitis&labels=&projects=&template=submit-a-script.md&title=%5BScript%5D+My+script+name)
 
 ## How to install a script
 
