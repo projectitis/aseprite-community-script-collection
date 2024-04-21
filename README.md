@@ -120,6 +120,7 @@ Generates a normal map automatically from one frame or from all frames of select
 ---
 
 **Parallax tool** by [Hazel Quantock aka TekF](https://github.com/TekF) ([Demo (twitter)](https://twitter.com/TekF/status/1145372742264512513), [GitHub](https://github.com/TekF/Aseprite-Scripts))
+
 Shows controls to move layers in the editor to give a parallax effect. By default each layer moves twice as fast as the one below, but this can be customized.
 
 `parallax`
@@ -296,46 +297,245 @@ This script can find & replace strings, and add prefixes or suffixes for tags in
 
 ---
 
-**Note**: I've been reformatting this list, and have got to here so far. The scripts below just haven't been put into this nicer format yet, but are all still available. Just harder to read.
+[Change the palette of several sprites](https://community.aseprite.org/t/change-the-palette-of-several-sprites/4299) by [dacap](https://community.aseprite.org/u/dacap)
 
+Before using these scripts create a backup of your sprites.
 
-*   [Change the palette of several sprites](https://community.aseprite.org/t/change-the-palette-of-several-sprites/4299) (by [dacap](https://community.aseprite.org/u/dacap)): _(_**Before using these scripts create a backup of your sprites**_)_.
-*   [Copy Merged Scaled](https://community.aseprite.org/t/script-copy-merged-scaled/4849) (by [YellowAfterlife](https://community.aseprite.org/u/YellowAfterlife)): Copy a merged version of the sprite layers, and also scale it up so that you can paste it wherever to show it to people
-*   [Rotation tweening](https://community.aseprite.org/t/rotation-tweening-on-aseprite-lua-script/4982) (by [Gasparoken](https://community.aseprite.org/u/Gasparoken)): [Youtube video](https://www.youtube.com/watch?v=hDwW-9_sIzo), Script [here](https://gasparoken.itch.io/aseprite-rotation-script).
-*   Mark cels based on frame duration, or manually (by [libroumque](https://twitter.com/librorumque/status/1179466036392931330)): Original [tweet](https://twitter.com/librorumque/status/1179466036392931330), view it [on github](https://gist.github.com/dotbread/26ad91dd92a67f8ab7ef0d80eb5fd4f6) or [download the script](https://gist.github.com/dotbread/26ad91dd92a67f8ab7ef0d80eb5fd4f6/raw/a4867dcc20530f9146d32028d482ce57c14058a3/Highlight%2520Cels.lua). **UPDATE**: GitHub Link’s dead, but script was rescued thanks to [V972](https://community.aseprite.org/u/V972) [here](https://community.aseprite.org/t/aseprite-scripts-collection/3599/58) - link to Google Drive [here](https://drive.google.com/file/d/1RNyY_SheXV2daMTp0LOn1OhgS_AYVXJv/view).
-*   Record (by [sprngr](https://community.aseprite.org/u/sprngr)): Is a suite of LUA scripts for taking incremental snapshots of your sprite for the purpose of making a time lapse/progress gif. Links: [itchio](https://sprngr.itch.io/aseprite-record) and [github](https://github.com/sprngr/aseprite-record).
-*   [Aseprite Mega Drive Digitizer](http://gendev.spritesmind.net/forum/viewtopic.php?t=3112) (by themrcul): Gets art directly and immediately from Aseprite to the Mega Drive (to be exact, to a Mega Everdrive X7 connected via USB) . Links: [MegaDriveDraw Release 1.zip](http://gendev.spritesmind.net/forum/download/file.php?id=354) and [MegaDriveDraw Release 2.zip](http://gendev.spritesmind.net/forum/download/file.php?id=355).
-*   [Center the current selection on the sprite](https://community.aseprite.org/t/centralization-tool/5474/2) (by [tuxpup](https://community.aseprite.org/u/tuxpup)): It takes the current selection and centers it on the current canvas. Link to repo: [~tuxpup/asesprite-script-center-selection - "Center Selection" script for asesprite - sourcehut git](https://git.sr.ht/~tuxpup/asesprite-script-center-selection)
-*   [Reduce the bit-depth of the palette](https://community.aseprite.org/t/aseprite-scripts-collection/3599/26) (by [sandor](https://community.aseprite.org/u/sandor)): It reduces the bit-depth of the palette colors. Link to repo: [aseprite-scripts/Reduce palette bit-depth.lua at master · sandord/aseprite-scripts · GitHub](https://github.com/sandord/aseprite-scripts/blob/master/Reduce%20palette%20bit-depth.lua)
-*   [Import tags from exported JSON](https://community.aseprite.org/t/aseprite-scripts-collection/3599/27) (by [jest](https://community.aseprite.org/u/jest)): It Imports existing tags from the exported JSON. That’s useful so you don’t have to re-tag every animation for similar sprites. [Link to repo](https://github.com/jestarray/aseprite-scripts/blob/master/Import_Existing_Tags.lua)
-*   [EGA dithering script](https://community.aseprite.org/t/ega-dithering-script/5405) (by [Dan\_Beeston](https://community.aseprite.org/u/Dan_Beeston)): This script sets your image to a blended EGA palette then dithers it to the original EGA palette. [Youtube Video](https://www.youtube.com/watch?v=9VAwc5yeiSQ) - Download link: [https://invisiblespiders.com/egaify.zip](https://invisiblespiders.com/egaify.zip)
-*   [Export to GameBoy format](https://community.aseprite.org/t/script-gameboy-export/5266) (by [boombuler](https://community.aseprite.org/u/boombuler)): It exports the current sprite to gameboy assembly. Link to repo: [GitHub - boombuler/aseprite-gbexport: a gameboy sprite export script for aseprite](https://github.com/boombuler/aseprite-gbexport)
-*   [Path Animator](https://community.aseprite.org/t/aseprite-scripts-collection/3599/37) (by [Gasparoken](https://community.aseprite.org/u/Gasparoken)): A tool for animating an image (multi-layer allowed) according a desired path - Repository [here](https://github.com/Gasparoken/asepriteScripts/tree/master/PathAnimator).
-*   [Merge All tags](https://community.aseprite.org/t/aseprite-scripts-collection/3599/40) (by [jest](https://community.aseprite.org/u/jest)): It will just combine all your open tabs into 1 spritesheet… [Link to repo](https://github.com/jestarray/aseprite-scripts/blob/master/jest_merge_all_tabs.lua)
-*   [non-empty cels counter](https://community.aseprite.org/t/aseprite-scripts-collection/3599/45) (by [Unknow0059](https://community.aseprite.org/u/Unknow0059)): It displays the total number of non-empty cels from visible layers. Or, in naive terms, the total frame count.
-*   [Perlin Noise Generation](https://community.aseprite.org/t/aseprite-scripts-collection/3599/46) (by [Ondrej\_Pokorny](https://community.aseprite.org/u/Ondrej_Pokorny)): It generates perlin noise, that can be used for water/clouds textures. Scritp for generation of normal maps is in repository as well - [link to repo](https://github.com/Ondra09/AseWave)
-*   [Aseprite Scripts](https://community.aseprite.org/t/aseprite-scripts-collection/3599/47) by [David\_Barker](https://community.aseprite.org/u/David_Barker)  
-    **Ghost Images :** Animation effect similar to onion skinning. The script will generate a new layer containing a number of ‘Ghosts’ of previous frames.  
-    **Layer Transition :** Generates a new layer with a simple transition effect between two existing layers.  
-    **Load Palette From CSV :** Load a palette from a CSV file with red, green, blue, alpha columns.  
-    **Save Palette To CSV :** Save current palette To CSV file with red, green, blue, alpha columns.  
-    **Selected Pixel Count :** Counts the number of pixels in an arbitrary shaped selection.  
-    Github repo [https://github.com/davebarkeruk/Aseprite\_LUA\_Scripts](https://github.com/davebarkeruk/Aseprite_LUA_Scripts)
-*   [MSX image file import v1.0](https://community.aseprite.org/t/extension-msx-image-file-import/8655/2) (by [NataliaPC](https://community.aseprite.org/u/NataliaPC)): It imports MSX image files. - [Github repo](https://github.com/nataliapc/aseprite_msx/releases/tag/v1.0)
-*   [PalRowMax](https://community.aseprite.org/t/aseprite-scripts-collection/3599/50)(by [BraidAcer](https://community.aseprite.org/u/BraidAcer)): It scans an indexed color image and tell you if you’ve used more than X palette colours in a single pixel height horizontal line - link to [drive](https://drive.google.com/file/d/13sJzyBVmaX0Lu0auqGOP2AZoyEQoBcqA/view).
-*   [Simple Color Range Multi-Select Noodle – SCRMSN](https://community.aseprite.org/t/aseprite-scripts-collection/3599/55) (by [J19](https://community.aseprite.org/u/J19)): It lets you select colors continuously instead of one-by-one like you had to do with the built-in tool: select-> color range. [Available (for free) on itch.io](https://j-19.itch.io/scrmsn).
-*   **UPDATE**: GitHub Link’s dead, but script was rescued thanks to [V972](https://community.aseprite.org/u/V972) [here](https://community.aseprite.org/t/aseprite-scripts-collection/3599/58) - link to Google Drive [here](https://drive.google.com/file/d/1RNyY_SheXV2daMTp0LOn1OhgS_AYVXJv/view).
-*   [Noise](https://community.aseprite.org/t/aseprite-scripts-collection/3599/59) (by [shemake](https://community.aseprite.org/u/shemake)): By default, it will create a new layer and scatter it with single pixel dots in your current foreground color. You can control the density with the first script option (higher numbers = LOWER density). Even better, if you want to create noise using a brush, all you have to do is choose the “Use current brush” checkbox and the script will apply the brush anywhere it would have created a speck of noise. - [link to github](https://shemake.dev/tech/viewing/Aseprite_makeNoise)
-*   [Find Orphan](https://community.aseprite.org/t/aseprite-scripts-collection/3599/60) (by [shemake](https://community.aseprite.org/u/shemake)): It will find orphan pixels. - [link to github](https://shemake.dev/tech/viewing/Aseprite_findOrphans)
-*   [Import Images from a folder Into New Layers](https://community.aseprite.org/t/aseprite-scripts-collection/3599/61) (by [JJHaggar](https://community.aseprite.org/u/JJHaggar), me XD): It imports images from a folder into new layers. [Link to repo](https://bitbucket.org/jjhaggar/aseprite-scripts/src/master/import_images_as_layers/)
-*   [Auto Mirror](https://community.aseprite.org/t/aseprite-scripts-collection/3599/65) (by [semplar](https://community.aseprite.org/u/semplar)): UIt helps with seamless tiles of any shape, like isometric ones. [Link to repo](https://github.com/semplar2007/aseprite-scripts/blob/main/AutoMirror.lua)
-*   [Asesprite-TF-Atlas-Editor](https://community.aseprite.org/t/aseprite-scripts-collection/3599/66) (by [CoolModder](https://community.aseprite.org/u/CoolModder)): Script for editing XML atlases for Towerfall - [Link to repo](https://github.com/CoolModder/Asesprite-TF-Atlas-Editior/tree/main)
-*   [Memo](https://community.aseprite.org/t/aseprite-scripts-collection/3599/67) (by [CoolModder](https://community.aseprite.org/u/CoolModder)): Script for viewing txt, xml, and json files. Editing not supported - [Link to repo](https://github.com/CoolModder/Memo)
-*   [Aseprite Export Tooling](https://community.aseprite.org/t/aseprite-scripts-collection/3599/69) (by [emscape](https://community.aseprite.org/u/emscape)): Extension for exporting spritesheets / frames + layers as seperate images - [Link to file (for free) on Patreon](https://www.patreon.com/posts/aseprite-export-96589806).
-*   [Paint Drip](https://community.aseprite.org/t/aseprite-scripts-collection/3599/73) (by [emscape](https://community.aseprite.org/u/emscape)): script to create a Paint Drip animation - [Link to file (for free) on Patreon](https://www.patreon.com/posts/98988171).
-*   [Emphasise layers](https://community.aseprite.org/t/aseprite-scripts-collection/3599/74) (by [emscape](https://community.aseprite.org/u/emscape)): script to emphasise your working layer within aseprite. With this you can finally see well what you’re doing when working with complex sprites - [Link to file (for free) on Patreon](https://www.patreon.com/posts/aseprite-layers-99381205)
-*   [Isometric Tiles](https://community.aseprite.org/t/aseprite-scripts-collection/3599/75) (by [motero2k](https://community.aseprite.org/u/motero2k)): a script for isometric “tiled mode”. It clones the selection to see how the texture fits - [Link to file](https://github.com/motero2k/aseprite-scripts)
-*   [Palettize: Better control when applying a palette](https://community.aseprite.org/t/script-palettize-better-control-when-applying-a-palette/21823) (by [Projectitis](https://community.aseprite.org/u/Projectitis)): Load a palette and preview your image with that palette. Adjust HSV sliders for each color channel until you are happy with the mapping before applying it - [Link to repo](https://github.com/projectitis/aseprite-script-palettize)
+`palette`
+
+---
+
+[Copy Merged Scaled](https://community.aseprite.org/t/script-copy-merged-scaled/4849) by [YellowAfterlife](https://community.aseprite.org/u/YellowAfterlife)
+
+Copy a merged version of the sprite layers and also scale it up so that you can paste it wherever to show it to people
+
+`transform`
+
+---
+
+[Rotation tweening](https://community.aseprite.org/t/rotation-tweening-on-aseprite-lua-script/4982) by [Gasparoken](https://community.aseprite.org/u/Gasparoken) ([Demo (YouTube)](https://www.youtube.com/watch?v=hDwW-9_sIzo), [File (itch.io)](https://gasparoken.itch.io/aseprite-rotation-script))
+
+`rotation` `animation`
+
+---
+
+**Mark cels based on frame duration or manually** by [libroumque (twitter)](https://twitter.com/librorumque/status/1179466036392931330)
+
+Original [tweet](https://twitter.com/librorumque/status/1179466036392931330), view it [on github](https://gist.github.com/dotbread/26ad91dd92a67f8ab7ef0d80eb5fd4f6) or [download the script](https://gist.github.com/dotbread/26ad91dd92a67f8ab7ef0d80eb5fd4f6/raw/a4867dcc20530f9146d32028d482ce57c14058a3/Highlight%2520Cels.lua). **UPDATE**: GitHub Link’s dead, but script was rescued thanks to [V972](https://community.aseprite.org/u/V972) [here](https://community.aseprite.org/t/aseprite-scripts-collection/3599/58) - link to Google Drive [here](https://drive.google.com/file/d/1RNyY_SheXV2daMTp0LOn1OhgS_AYVXJv/view).
+
+`editor`
+
+---
+
+**Record** by [sprngr](https://community.aseprite.org/u/sprngr) ([itch.io](https://sprngr.itch.io/aseprite-record), [GitHub](https://github.com/sprngr/aseprite-record))
+
+A suite of LUA scripts for taking incremental snapshots of your sprite for the purpose of making a time lapse/progress gif.
+
+`record`
+
+---
+
+[Aseprite Mega Drive Digitizer](http://gendev.spritesmind.net/forum/viewtopic.php?t=3112) by themrcul
+
+Gets art directly and immediately from Aseprite to the Mega Drive (to be exact, to a Mega Everdrive X7 connected via USB). Links: [MegaDriveDraw Release 1.zip](http://gendev.spritesmind.net/forum/download/file.php?id=354) and [MegaDriveDraw Release 2.zip](http://gendev.spritesmind.net/forum/download/file.php?id=355).
+
+`export`
+
+---
+
+[Center the current selection on the sprite](https://community.aseprite.org/t/centralization-tool/5474/2) by [tuxpup](https://community.aseprite.org/u/tuxpup) ([Repo](https://git.sr.ht/~tuxpup/asesprite-script-center-selection))
+
+Takes the current selection and centers it on the current canvas.
+
+`editor`
+
+---
+
+[Reduce the bit-depth of the palette](https://community.aseprite.org/t/aseprite-scripts-collection/3599/26) by [sandor](https://community.aseprite.org/u/sandor) ([GitHub](https://github.com/sandord/aseprite-scripts/blob/master/Reduce%20palette%20bit-depth.lua))
+
+Reduces the bit-depth of the palette colors.
+
+`palette`
+
+---
+
+[Import tags from exported JSON](https://community.aseprite.org/t/aseprite-scripts-collection/3599/27) by [jest](https://community.aseprite.org/u/jest) ([GitHub](https://github.com/jestarray/aseprite-scripts/blob/master/Import_Existing_Tags.lua))
+
+Imports existing tags from the exported JSON. That’s useful so you don’t have to re-tag every animation for similar sprites.
+
+`import`
+
+---
+
+[EGA dithering script](https://community.aseprite.org/t/ega-dithering-script/5405) by [Dan\_Beeston](https://community.aseprite.org/u/Dan_Beeston) ([Demo (YouTube)](https://www.youtube.com/watch?v=9VAwc5yeiSQ), [Download (zip)](https://invisiblespiders.com/egaify.zip) )
+
+Sets your image to a blended EGA palette then dithers it to the original EGA palette.
+
+`palette`
+
+---
+
+[Export to GameBoy format](https://community.aseprite.org/t/script-gameboy-export/5266) by [boombuler](https://community.aseprite.org/u/boombuler) ([GitHub](https://github.com/boombuler/aseprite-gbexport))
+
+Exports the current sprite to gameboy assembly.
+
+`export`
+
+---
+
+[Path Animator](https://community.aseprite.org/t/aseprite-scripts-collection/3599/37) by [Gasparoken](https://community.aseprite.org/u/Gasparoken) ([GitHub](https://github.com/Gasparoken/asepriteScripts/tree/master/PathAnimator))
+
+A tool for animating an image (multi-layer allowed) according a desired path.
+
+`animation`
+
+---
+
+[Merge All tabs](https://community.aseprite.org/t/aseprite-scripts-collection/3599/40) by [jest](https://community.aseprite.org/u/jest) ([GitHub](https://github.com/jestarray/aseprite-scripts/blob/master/jest_merge_all_tabs.lua))
+
+It will just combine all your open tabs into 1 spritesheet.
+
+`editor`
+
+---
+
+[non-empty cels counter](https://community.aseprite.org/t/aseprite-scripts-collection/3599/45) by [Unknow0059](https://community.aseprite.org/u/Unknow0059) ([Script](https://community.aseprite.org/t/aseprite-scripts-collection/3599/45))
+
+Displays the total number of non-empty cels from visible layers. Or, in naive terms, the total frame count.
+
+`metrics`
+
+---
+
+[Perlin Noise Generation](https://community.aseprite.org/t/aseprite-scripts-collection/3599/46) by [Ondrej\_Pokorny](https://community.aseprite.org/u/Ondrej_Pokorny) ([GitHub](https://github.com/Ondra09/AseWave))
+
+Generates perlin noise, that can be used for water/clouds textures. Script for generation of normal maps is in repository as well.
+
+`drawing`
+
+---
+
+[Various scripts](https://community.aseprite.org/t/aseprite-scripts-collection/3599/47) by [David\_Barker](https://community.aseprite.org/u/David_Barker) ([GitHub](https://github.com/davebarkeruk/Aseprite_LUA_Scripts))
+    
+- **Ghost Images :** Animation effect similar to onion skinning. The script will generate a new layer containing a number of ‘Ghosts’ of previous frames.  
+- **Layer Transition :** Generates a new layer with a simple transition effect between two existing layers.  
+- **Load Palette From CSV :** Load a palette from a CSV file with red, green, blue, alpha columns.  
+- **Save Palette To CSV :** Save current palette To CSV file with red, green, blue, alpha columns.  
+- **Selected Pixel Count :** Counts the number of pixels in an arbitrary shaped selection.  
+
+`animation` `palette` `metrics`  
+
+---
+
+[MSX image file import v1.0](https://community.aseprite.org/t/extension-msx-image-file-import/8655/2) by [NataliaPC](https://community.aseprite.org/u/NataliaPC) ([GitHub](https://github.com/nataliapc/aseprite_msx/releases/tag/v1.0))
+
+Imports MSX image files.
+
+`import`
+
+---
+
+[PalRowMax](https://community.aseprite.org/t/aseprite-scripts-collection/3599/50) by [BraidAcer](https://community.aseprite.org/u/BraidAcer) ([Google Drive](https://drive.google.com/file/d/13sJzyBVmaX0Lu0auqGOP2AZoyEQoBcqA/view))
+
+Scans an indexed color image and tell you if you’ve used more than X palette colors in a single pixel height horizontal line.
+
+`palette`
+
+---
+
+[Simple Color Range Multi-Select Noodle – SCRMSN](https://community.aseprite.org/t/aseprite-scripts-collection/3599/55) by [J19](https://community.aseprite.org/u/J19)
+
+It lets you select colors continuously instead of one-by-one like you had to do with the built-in tool: select-> color range. [Available (for free) on itch.io](https://j-19.itch.io/scrmsn). **UPDATE**: GitHub Link’s dead, but script was rescued thanks to [V972](https://community.aseprite.org/u/V972) [here](https://community.aseprite.org/t/aseprite-scripts-collection/3599/58) - link to Google Drive [here](https://drive.google.com/file/d/1RNyY_SheXV2daMTp0LOn1OhgS_AYVXJv/view).
+
+`editor`
+
+---
+
+[Noise](https://community.aseprite.org/t/aseprite-scripts-collection/3599/59) by [shemake](https://community.aseprite.org/u/shemake) ([GitHub](https://shemake.dev/tech/viewing/Aseprite_makeNoise))
+
+Create a new layer and scatter it with single pixel dots in your current foreground color. You can control the density with the first script option (higher numbers = LOWER density). Even better, if you want to create noise using a brush, all you have to do is choose the “Use current brush” checkbox and the script will apply the brush anywhere it would have created a speck of noise.
+
+`drawing`
+
+---
+
+[Find Orphan](https://community.aseprite.org/t/aseprite-scripts-collection/3599/60) by [shemake](https://community.aseprite.org/u/shemake) ([GitHub](https://shemake.dev/tech/viewing/Aseprite_findOrphans))
+
+Find orphan pixels.
+
+`drawing`
+
+---
+
+[Import Images from a folder Into New Layers](https://community.aseprite.org/t/aseprite-scripts-collection/3599/61) by [JJHaggar](https://community.aseprite.org/u/JJHaggar) ([GitHub](https://bitbucket.org/jjhaggar/aseprite-scripts/src/master/import_images_as_layers/))
+
+Import images from a folder into new layers.
+
+`import`
+
+---
+
+[Auto Mirror](https://community.aseprite.org/t/aseprite-scripts-collection/3599/65) by [semplar](https://community.aseprite.org/u/semplar) ([GitHub](https://github.com/semplar2007/aseprite-scripts/blob/main/AutoMirror.lua))
+
+Helps with seamless tiles of any shape, like isometric ones.
+
+`drawing`
+
+---
+
+[Asesprite-TF-Atlas-Editor](https://community.aseprite.org/t/aseprite-scripts-collection/3599/66) by [CoolModder](https://community.aseprite.org/u/CoolModder) ([GitHub](https://github.com/CoolModder/Asesprite-TF-Atlas-Editior/tree/main))
+
+Edit XML atlases for Towerfall.
+
+`export`
+
+---
+
+[Memo](https://community.aseprite.org/t/aseprite-scripts-collection/3599/67) by [CoolModder](https://community.aseprite.org/u/CoolModder) ([GitHub](https://github.com/CoolModder/Memo))
+
+Script for viewing txt, xml, and json files. Editing not supported.
+
+`editor`
+
+---
+
+[Aseprite Export Tooling](https://community.aseprite.org/t/aseprite-scripts-collection/3599/69) by [emscape](https://community.aseprite.org/u/emscape) ([File on Patreon (free)](https://www.patreon.com/posts/aseprite-export-96589806))
+
+Extension for exporting spritesheets / frames + layers as seperate images.
+
+`export`
+
+---
+
+[Paint Drip](https://community.aseprite.org/t/aseprite-scripts-collection/3599/73) by [emscape](https://community.aseprite.org/u/emscape) ([File on Patreon (free)](https://www.patreon.com/posts/98988171))
+
+Create a Paint Drip animation.
+
+`animation`
+
+---
+
+[Emphasise layers](https://community.aseprite.org/t/aseprite-scripts-collection/3599/74) by [emscape](https://community.aseprite.org/u/emscape) ([File on Patreon (free)](https://www.patreon.com/posts/aseprite-layers-99381205))
+
+Emphasise your working layer within aseprite. With this you can finally see well what you’re doing when working with complex sprites.
+
+`editor`
+
+---
+
+[Isometric Tiles](https://community.aseprite.org/t/aseprite-scripts-collection/3599/75) by [motero2k](https://community.aseprite.org/u/motero2k) ([GitHub](https://github.com/motero2k/aseprite-scripts))
+
+Isometric "tiled mode". It clones the selection to see how the texture fits.
+
+`isometric` `tile`
+
+---
+
+[Palettize: Better control when applying a palette](https://community.aseprite.org/t/script-palettize-better-control-when-applying-a-palette/21823) by [Projectitis](https://community.aseprite.org/u/Projectitis) ([GitHub](https://github.com/projectitis/aseprite-script-palettize))
+
+Load a palette and preview your image. Adjust HSV sliders for each color channel to tweak the color mapping before applying it.
+
+`palette`
 
 ---
 
