@@ -32,6 +32,6 @@ Link here
 
 https://community.aseprite.org/u/projectitis/summary
 
-## (Optional) Link to the Aseprite forum where you have posted your script
+## (Optional) Link to the Aseprite forum post where you have posted your script
 
 https://community.aseprite.org/t/script-palettize-better-control-when-applying-a-palette/21823
