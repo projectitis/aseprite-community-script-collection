@@ -312,3 +312,10 @@ This script can find & replace strings, and add prefixes or suffixes for tags in
 *   [Emphasise layers](https://community.aseprite.org/t/aseprite-scripts-collection/3599/74) (by [emscape](https://community.aseprite.org/u/emscape)): script to emphasise your working layer within aseprite. With this you can finally see well what you’re doing when working with complex sprites - [Link to file (for free) on Patreon](https://www.patreon.com/posts/aseprite-layers-99381205)
 *   [Isometric Tiles](https://community.aseprite.org/t/aseprite-scripts-collection/3599/75) (by [motero2k](https://community.aseprite.org/u/motero2k)): a script for isometric “tiled mode”. It clones the selection to see how the texture fits - [Link to file](https://github.com/motero2k/aseprite-scripts)
 *   [Palettize: Better control when applying a palette](https://community.aseprite.org/t/script-palettize-better-control-when-applying-a-palette/21823) (by [Projectitis](https://community.aseprite.org/u/Projectitis)): Load a palette and preview your image with that palette. Adjust HSV sliders for each color channel until you are happy with the mapping before applying it - [Link to repo](https://github.com/projectitis/aseprite-script-palettize)
+
+---
+
+[DNS Exporter](https://community.aseprite.org/t/doom-style-sprite-exporter/21240) by [TheSartremaster](https://community.aseprite.org/u/thesartremaster/summary) ([GitHub](https://github.com/jvornhagen/DoomStyleSpriteExporterForAseprite))
+This script allows automatically exporting of Aseprite files following the DOOM naming conventions. E.g. An image with 3 frames will be exported as POSSA0, POSSB0, POSSC0. Allows setting the sprite angles, mirroring, custom export range and starting letter.
+
+`export`
