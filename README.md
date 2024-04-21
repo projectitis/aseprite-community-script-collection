@@ -43,6 +43,7 @@ If you have a script that you'd like to contribute, complete the form to [submit
 ## Scripts collection
 
 [Touch Toolbar helper](https://community.aseprite.org/t/touch-toolbar-helper/2169) by [dacap](https://community.aseprite.org/u/dacap) ([Link to file](https://gist.githubusercontent.com/dacap/e470b917c343af38e84b81cb642b85d3/raw/f83d6b1f64a6fea5923ef52d1c6268a18b41ab1c/Touch%2520Toolbar.lua))
+
 A simple example script that shows how to create a dialog with buttons on it.
 
 `example`
@@ -50,6 +51,7 @@ A simple example script that shows how to create a dialog with buttons on it.
 ---
 
 [Slice](https://community.aseprite.org/t/aseprite-slice-script/3130) by [molingyu](https://community.aseprite.org/u/molingyu) ([GitHub](https://github.com/molingyu/AsepriteScript))
+
 Slice a sprite by cell size or by count. Similar to the slice tool in the Unity sprite editor.
 
 `sprite sheet`
@@ -57,6 +59,7 @@ Slice a sprite by cell size or by count. Similar to the slice tool in the Unity 
 ---
 
 [Displacement](https://community.aseprite.org/t/script-displacement/3438) by [heidi](https://community.aseprite.org/u/heidi) ([GitHub](https://github.com/Heidi-Potato/scripts-for-asesprite))
+
 A script for tile randomization that randomly moves about pixels as per given probabilities.
 
 `tile`
@@ -64,11 +67,13 @@ A script for tile randomization that randomly moves about pixels as per given pr
 ---
 
 [Timer script](https://community.aseprite.org/t/script-timer-script/2594) by [goustkor](https://community.aseprite.org/u/goustkor) ([GitHub](https://github.com/goustkor/Aseprite-Scripts))
+
 A counter to time how long it took to create a sprite.
 
 ---
 
 **Multi Color Replacer** by [goustkor](https://community.aseprite.org/u/goustkor) ([GitHub](https://github.com/goustkor/Aseprite-Scripts))
+
 Select multiple color replacements (**from** and **to**) and perform them all at once.
 
 `palette`
@@ -76,6 +81,7 @@ Select multiple color replacements (**from** and **to**) and perform them all at
 ---
 
 [Pixel Stats](https://community.aseprite.org/t/pixel-stats-check-the-total-amount-of-colored-pixels-you-used-in-your-art/1897) by [haloflooder](https://community.aseprite.org/u/haloflooder) ([GitHub](https://github.com/haloflooder/Aseprite-Scripts/releases))
+
 Calculates and summarizes the total number of pixels for each color (including %).
 
 `metrics`
@@ -83,6 +89,7 @@ Calculates and summarizes the total number of pixels for each color (including %
 ---
 
 [NxPA Studio](https://thkaspar.itch.io/nxpa) by [Kacper Woźniak aka thkaspar](https://thkaspar.itch.io) ([Demo (on twitter)](https://twitter.com/thkasparrr/status/1058795230382747649))
+
 This is a powerful script suite that consists of:
 
 - **Scale**: a script that allows for upscaling pixel art without introducing new colors using a variety of algorithms: Nearest Neighbor, Eagle, Scale2x and a custom algorithm named Hawk.  
@@ -105,6 +112,7 @@ This is a powerful script suite that consists of:
 ---
 
 **Generate normal map** by Rucho/るっちょ‏ @ruccho\_vector ([Demo (twitter)](https://twitter.com/ruccho_vector/status/1103488054604386305), [for one frame](https://gist.github.com/ruccho/efa1139ddd6da6d4d22def161209d2e7), [for all frames](https://gist.github.com/ruccho/2d1eb4aea3dfa55690c2ddc4419172ff))
+
 Generates a normal map automatically from one frame or from all frames of selected layers.
 
 `normal map`
@@ -119,6 +127,7 @@ Shows controls to move layers in the editor to give a parallax effect. By defaul
 ---
 
 **Isometric Box Generator** by [Kamil ‏@darkwark](https://twitter.com/darkwark) ([Demo (twitter)](https://twitter.com/darkwark/status/1061343439957229568), [GitHub](https://github.com/darkwark/isobox-for-aseprite), [itch.io](https://darkwark.itch.io/isobox-for-aseprite))
+
 Generate isometric boxes at custom sizes, either filled or wireframe. Select colors for each of the sides, set a highlight and stroke color and corner style (2px and 3px).
 
 `isometric`
@@ -126,6 +135,7 @@ Generate isometric boxes at custom sizes, either filled or wireframe. Select col
 ---
 
 **C64 helper scripts** by [Viza74](https://github.com/Viza74) ([GitHub](https://github.com/Viza74/c64helperscriptsforaseprite))
+
 A collections of scripts, including:
 
 - Various checks to ensure the sprite meets C64 multicolor rules
@@ -174,6 +184,7 @@ A collections of scripts, including:
 ---
 
 **APNG reader/decoder** by [kettek](https://github.com/kettek) ([GitHub](https://github.com/kettek/aseprite-scripts))
+
 Not currently working. APNG reader and writer
 
 `import` `export`
@@ -181,6 +192,7 @@ Not currently working. APNG reader and writer
 ---
 
 **Isometric Guidelines** by [oscb](https://github.com/oscb) ([GitHub](https://github.com/oscb/aseprites-scripts))
+
 Generates isometric guidelines and adds them to a new layer
 
 `isometric` `guide`
@@ -188,6 +200,7 @@ Generates isometric guidelines and adds them to a new layer
 ---
 
 **Mask layer-like extensions** by [masakazu-k](https://github.com/masakazu-k) ([GitHub](https://github.com/masakazu-k/aseprite-scripts))
+
 Adds the mask layer-like functionality to Aseprite. Use the MergedCopy function to cut out the mask area specified in the mask layer.
 
 `mask`
@@ -195,6 +208,7 @@ Adds the mask layer-like functionality to Aseprite. Use the MergedCopy function 
 ---
 
 **aseprite-xcolor** by [steven-kraft](https://github.com/steven-kraft) ([GitHub](https://github.com/steven-kraft/aseprite-xcolor))
+
 An external color picking script for Aseprite using [xcolor](https://github.com/Soft/xcolor) by Soft. Allows you to pick colors from outside of the Aseprite application. Currently only tested on Linux.
 
 `color`
@@ -202,6 +216,7 @@ An external color picking script for Aseprite using [xcolor](https://github.com/
 ---
 
 **Aseprite-Export-Tags** by [StarJackal57](https://github.com/StarJackal57) ([GitHub](https://github.com/StarJackal57/Aseprite-Export-Tags))
+
 Exports the tags of the active Aseprite sprite and exports as a horizontal png strip. The file is labeled with the proper suffix to make import into Game Maker projects much simpler.
 
 `export`
@@ -209,6 +224,7 @@ Exports the tags of the active Aseprite sprite and exports as a horizontal png s
 ---
 
 **PixeLips** by [BoThompson](https://github.com/BoThompson) ([GitHub](https://github.com/BoThompson/pixeLips))
+
 An Aseprite Script Plugin to support Papagayo files to animate Lipsyncing
 
 `animation`
@@ -216,6 +232,7 @@ An Aseprite Script Plugin to support Papagayo files to animate Lipsyncing
 ---
 
 [Color Shading](https://community.aseprite.org/t/script-more-color-shading-options/3668) by [domjohn](https://community.aseprite.org/u/domjohn) ([GitHub](https://github.com/dominickjohn/aseprite/))
+
 An Aseprite Script to open a dialog with relevant color shades.
 
 `color`
@@ -223,6 +240,7 @@ An Aseprite Script to open a dialog with relevant color shades.
 ---
 
 [Export sprite’s layers as individual images](https://community.aseprite.org/t/script-linux-export-sprites-layers-as-individual-images/3679) by [Gaspi](https://community.aseprite.org/u/gaspi/summary) ([Github](https://github.com/PKGaspi/AsepriteScripts))
+
 Scripts to export layers or slices on a sprite as individual png images with their own name and on a specific folder.
 
 `export`
@@ -230,11 +248,13 @@ Scripts to export layers or slices on a sprite as individual png images with the
 ---
 
 **Listing and removing all slices** by [Jonathan Smårs (jsmars on twitter)](https://twitter.com/jsmars/status/1193812885853671429) ([GitHub](https://github.com/jsmars/DevTools))
+
 Creates a list of all the slices in your document and allows you to delete them (even corrupt slices that do not show up in the view)
 
 ---
 
 **Screen color picker for Windows** by [endlesstravel](https://community.aseprite.org/u/endlesstravel) ([Project](https://gitee.com/endlesstravel/Aseprite-Sprite-Win-ColorPicker), [Download](https://gitee.com/endlesstravel/Aseprite-Sprite-Win-ColorPicker/releases))
+
 Needs .Net 4.6.1+. Escape to exit, mouse click to pick color (change bg, change fg, add color to palette).
 
 `palette`
@@ -242,6 +262,7 @@ Needs .Net 4.6.1+. Escape to exit, mouse click to pick color (change bg, change 
 ---
 
 **1-Point Perspective Helper** by [GunTurtle (itch.io)](https://gunturtle.itch.io/) ([itch.io](https://itch.io/queue/c/565204/aseprite?game_id=445017))
+
 A lua script for Aseprite that quickly generates single point perspective.
 
 `perspective` `guide`
@@ -249,6 +270,7 @@ A lua script for Aseprite that quickly generates single point perspective.
 ---
 
 **Export to PSD** by [Tsukina\_7mochi (twitter)](https://twitter.com/Tsukina_7mochi) ([GitHub](https://github.com/Tsukina-7mochi/aseprite-scripts))
+
 This script is used to export to Photoshop’s .psd format from Aseprite If you have problems opening the exported PSD, you can try using [this revision of the script file](https://raw.githubusercontent.com/Tsukina-7mochi/aseprite-scripts/c19e025246955b8008773d54759821667cb1727f/psd/Export%20as%20PSD.lua) (right click on the link and choose “save link as”).
 
 `export`
@@ -256,6 +278,7 @@ This script is used to export to Photoshop’s .psd format from Aseprite If you 
 ---
 
 **Cycling keyboard shortcut** by [Gasparoken](https://community.aseprite.org/u/Gasparoken)
+
 You can associate a keyboard shortcut to a script, and you can also make that script cycle between tools, brushes, etc. [How to create a cycling keyboard shortcut](https://community.aseprite.org/t/how-to-create-a-cycling-keyboard-shortcut/4732)
 
 ---
@@ -268,6 +291,7 @@ It exports all tags as individual gifs
 ---
 
 **Bulk rename Tags** by [Arkogelul](https://community.aseprite.org/u/Arkogelul), [dacap](https://community.aseprite.org/u/dacap), [JJHaggar](https://community.aseprite.org/u/jjhaggar) ([Link to file](https://github.com/jjhaggar/Aseprite-Add-on-Collections/tree/master/scripts/bulk-rename-tags))
+
 This script can find & replace strings, and add prefixes or suffixes for tags in ase files.
 
 ---
@@ -316,6 +340,7 @@ This script can find & replace strings, and add prefixes or suffixes for tags in
 ---
 
 [DNS Exporter](https://community.aseprite.org/t/doom-style-sprite-exporter/21240) by [TheSartremaster](https://community.aseprite.org/u/thesartremaster/summary) ([GitHub](https://github.com/jvornhagen/DoomStyleSpriteExporterForAseprite))
+
 This script allows automatically exporting of Aseprite files following the DOOM naming conventions. E.g. An image with 3 frames will be exported as POSSA0, POSSB0, POSSC0. Allows setting the sprite angles, mirroring, custom export range and starting letter.
 
 `export`
