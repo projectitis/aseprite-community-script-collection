@@ -6,39 +6,10 @@ Aseprite is working on an official database of scripts and extensions (including
 
 If you have a script that you'd like to contribute, complete the form to [submit a script](https://github.com/projectitis/aseprite-community-script-collection/issues/new?assignees=projectitis&labels=&projects=&template=submit-a-script.md&title=%5BScript%5D+My+script+name).
 
-- [How to install a script](#how-to-install-a-script)
-- [How to create a scrip](#how-to-create-a-script)
 - [Scripts collection](#scripts-collection)
 - [Submit a script](https://github.com/projectitis/aseprite-community-script-collection/issues/new?assignees=projectitis&labels=&projects=&template=submit-a-script.md&title=%5BScript%5D+My+script+name)
-
-## How to install a script
-
-1. Download the script (scripts are files with .lua extension, so if you download them as a .zip file you will need to uncompress them)
-2. Open the user script folder 1.1k
-    
-    ![Open the scripts folder](/images/screenshot-scripts-folder.png)
-
-3. Copy the script in that folder (if you want you can also create folders there for organisation)
-4. Restart Aseprite
-5. Then you will be able to access to that script from the File > Scripts > YourScriptName menu option
-6. You can also create a Keyboard Shortcut for each script that you want from the Edit > Keyboard Shortcuts menu (type “script” in the search box to find them easily)
-
-    ![Keyboard shortcuts](/images/screenshot-shortcuts.png)
-
-## How to create a script
-
-1. You should know how to program a little bit, or at least don’t be scared of trying :)
-2. Learn a bit about Lua:  
-    2.1 [all you need to know about Lua](https://www.lua.org/pil/contents.html).  
-    2.2 [online tester for normal Lua code](https://www.lua.org/demo.html).
-3. Aseprite scripting API:  
-    3.1 [on GitHub](https://github.com/aseprite/api)  
-    3.2 [on Aseprite.org](https://www.aseprite.org/api/)
-4. Get help from a (free) LLM (they can teach you and also help you fix bugs):  
-    4.1 [Anthropic’s Claude](https://claude.ai/chats)  
-    4.2 [Google’s Gemini](https://gemini.google.com/app)  
-    4.3 [OpenAi’s ChatGPT](https://chat.openai.com/)  
-    4.4 Local (Open Source) models using [Ollama](https://ollama.com/)
+- [How to install a script](#how-to-install-a-script)
+- [How to create a script](#how-to-create-a-script)
 
 ## Scripts collection
 
@@ -544,3 +515,32 @@ Load a palette and preview your image. Adjust HSV sliders for each color channel
 This script allows automatically exporting of Aseprite files following the DOOM naming conventions. E.g. An image with 3 frames will be exported as POSSA0, POSSB0, POSSC0. Allows setting the sprite angles, mirroring, custom export range and starting letter.
 
 `export`
+
+## How to install a script
+
+1. Download the script (scripts are files with .lua extension, so if you download them as a .zip file you will need to uncompress them)
+2. Open the user script folder 1.1k
+    
+    ![Open the scripts folder](/images/screenshot-scripts-folder.png)
+
+3. Copy the script in that folder (if you want you can also create folders there for organisation)
+4. Restart Aseprite
+5. Then you will be able to access to that script from the File > Scripts > YourScriptName menu option
+6. You can also create a Keyboard Shortcut for each script that you want from the Edit > Keyboard Shortcuts menu (type “script” in the search box to find them easily)
+
+    ![Keyboard shortcuts](/images/screenshot-shortcuts.png)
+
+## How to create a script
+
+1. You should know how to program a little bit, or at least don’t be scared of trying :)
+2. Learn a bit about Lua:  
+    2.1 [all you need to know about Lua](https://www.lua.org/pil/contents.html).  
+    2.2 [online tester for normal Lua code](https://www.lua.org/demo.html).
+3. Aseprite scripting API:  
+    3.1 [on GitHub](https://github.com/aseprite/api)  
+    3.2 [on Aseprite.org](https://www.aseprite.org/api/)
+4. Get help from a (free) LLM (they can teach you and also help you fix bugs):  
+    4.1 [Anthropic’s Claude](https://claude.ai/chats)  
+    4.2 [Google’s Gemini](https://gemini.google.com/app)  
+    4.3 [OpenAi’s ChatGPT](https://chat.openai.com/)  
+    4.4 Local (Open Source) models using [Ollama](https://ollama.com/)
