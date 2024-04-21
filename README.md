@@ -183,7 +183,7 @@ Not currently working. APNG reader and writer
 **Isometric Guidelines** by [oscb](https://github.com/oscb) ([GitHub](https://github.com/oscb/aseprites-scripts))
 Generates isometric guidelines and adds them to a new layer
 
-`isometric`
+`isometric` `guide`
 
 ---
 
@@ -241,13 +241,40 @@ Needs .Net 4.6.1+. Escape to exit, mouse click to pick color (change bg, change 
 
 ---
 
+**1-Point Perspective Helper** by [GunTurtle (itch.io)](https://gunturtle.itch.io/) ([itch.io](https://itch.io/queue/c/565204/aseprite?game_id=445017))
+A lua script for Aseprite that quickly generates single point perspective.
+
+`perspective` `guide`
+
+---
+
+**Export to PSD** by [Tsukina\_7mochi (twitter)](https://twitter.com/Tsukina_7mochi) ([GitHub](https://github.com/Tsukina-7mochi/aseprite-scripts))
+This script is used to export to Photoshop’s .psd format from Aseprite If you have problems opening the exported PSD, you can try using [this revision of the script file](https://raw.githubusercontent.com/Tsukina-7mochi/aseprite-scripts/c19e025246955b8008773d54759821667cb1727f/psd/Export%20as%20PSD.lua) (right click on the link and choose “save link as”).
+
+`export`
+
+---
+
+**Cycling keyboard shortcut** by [Gasparoken](https://community.aseprite.org/u/Gasparoken)
+You can associate a keyboard shortcut to a script, and you can also make that script cycle between tools, brushes, etc. [How to create a cycling keyboard shortcut](https://community.aseprite.org/t/how-to-create-a-cycling-keyboard-shortcut/4732)
+
+---
+
+**Export Tags to Gif** by [ThunderFD](https://github.com/ThunderFD) ([GitHub](https://github.com/ThunderFD/Thunders-Aseprite-Scripts))
+It exports all tags as individual gifs
+
+`export`
+
+---
+
+**Bulk rename Tags** by [Arkogelul](https://community.aseprite.org/u/Arkogelul), [dacap](https://community.aseprite.org/u/dacap), [JJHaggar](https://community.aseprite.org/u/jjhaggar) ([Link to file](https://github.com/jjhaggar/Aseprite-Add-on-Collections/tree/master/scripts/bulk-rename-tags))
+This script can find & replace strings, and add prefixes or suffixes for tags in ase files.
+
+---
+
 **Note**: I've been reformatting this list, and have got to here so far. The scripts below just haven't been put into this nicer format yet, but are all still available. Just harder to read.
 
-*   1-Point Perspective Helper (by [GunTurtle](https://gunturtle.itch.io/)): A lua script for Aseprite that quickly generates single point perspective. [Aseprite - itch.io](https://itch.io/queue/c/565204/aseprite?game_id=445017)
-*   Export to PSD (by [Tsukina\_7mochi](https://twitter.com/Tsukina_7mochi)): This script is used to export to Photoshop’s .psd format from Aseprite [aseprite-scripts/psd at master · Tsukina-7mochi/aseprite-scripts · GitHub](https://github.com/Tsukina-7mochi/aseprite-scripts/tree/master/psd) If you have problems opening the exported PSD, you can try using [this revision of the script file](https://raw.githubusercontent.com/Tsukina-7mochi/aseprite-scripts/c19e025246955b8008773d54759821667cb1727f/psd/Export%20as%20PSD.lua) (right click on the link and choose “save link as”).
-*   Cycling keyboard shortcut (by [Gasparoken](https://community.aseprite.org/u/Gasparoken)): You can associate a keyboard shortcut to a script, and you can also make that script cycle between tools, brushes, etc. [How to create a cycling keyboard shortcut](https://community.aseprite.org/t/how-to-create-a-cycling-keyboard-shortcut/4732)
-*   Export Tags to Gif (by [ThunderFD](https://github.com/ThunderFD)): It exports all tags as individual gifs [GitHub - ThunderFD/Thunders-Aseprite-Scripts: Scripts that I've written to help me automate repetitive tasks in Aseprite.](https://github.com/ThunderFD/Thunders-Aseprite-Scripts)
-*   Bulk rename Tags (by [Arkogelul](https://community.aseprite.org/u/Arkogelul), [dacap](https://community.aseprite.org/u/dacap) and myself): This script can find & replace strings, and add prefixes or suffixes for tags in ase files. You can [download it here](https://github.com/jjhaggar/Aseprite-Add-on-Collections/tree/master/scripts/bulk-rename-tags).
+
 *   [Change the palette of several sprites](https://community.aseprite.org/t/change-the-palette-of-several-sprites/4299) (by [dacap](https://community.aseprite.org/u/dacap)): _(_**Before using these scripts create a backup of your sprites**_)_.
 *   [Copy Merged Scaled](https://community.aseprite.org/t/script-copy-merged-scaled/4849) (by [YellowAfterlife](https://community.aseprite.org/u/YellowAfterlife)): Copy a merged version of the sprite layers, and also scale it up so that you can paste it wherever to show it to people
 *   [Rotation tweening](https://community.aseprite.org/t/rotation-tweening-on-aseprite-lua-script/4982) (by [Gasparoken](https://community.aseprite.org/u/Gasparoken)): [Youtube video](https://www.youtube.com/watch?v=hDwW-9_sIzo), Script [here](https://gasparoken.itch.io/aseprite-rotation-script).
