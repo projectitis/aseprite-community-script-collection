@@ -516,6 +516,14 @@ This script allows automatically exporting of Aseprite files following the DOOM 
 
 `export`
 
+---
+
+[Aseprite Lottie Export](https://github.com/behreajj/aselottieexport) by [behreandtjeremy](https://community.aseprite.org/u/behreandtjeremy)
+
+Exports a sprite as a [lottie](https://lottiefiles.com/) file. Lotties are animated vector files. This makes a flattened composite of the sprite, then treats each pixel as a rectangle.
+
+`export`
+
 ## How to install a script
 
 1. Download the script (scripts are files with .lua extension, so if you download them as a .zip file you will need to uncompress them)
