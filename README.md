@@ -524,6 +524,22 @@ Exports a sprite as a [lottie](https://lottiefiles.com/) file. Lotties are anima
 
 `export`
 
+---
+
+[Local Multiplayer](https://github.com/MiloszKawczynski/multiplayer-aseprite-extension) by [MiloszKawczynski](https://github.com/MiloszKawczynski)
+
+Allows to connect two PCs on a local network to work together on animations or multi-layer artwork.
+
+`collaboration`
+
+---
+
+[UV Lookup](https://github.com/MiloszKawczynski/uvlookup-aseprite-extension) by [MiloszKawczynski](https://github.com/MiloszKawczynski)
+
+Allows to create a lookup table for 2D animations, similar to the technique proposed by aarthificial [in this video](https://youtu.be/HsOKwUwL1bE?si=8FbnN9xGiev-icns).
+
+`palette` `LUT`
+
 ## How to install a script
 
 1. Download the script (scripts are files with .lua extension, so if you download them as a .zip file you will need to uncompress them)
